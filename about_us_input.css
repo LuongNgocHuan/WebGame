@@ -1,0 +1,371 @@
+body {
+    
+    width: 1440px;
+    height: 1374px;
+    background-color: #F4F4F4;
+
+}
+.main {
+    /* position: relative; */
+
+    
+    
+}
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+   
+}
+.text-left {
+    display: flex;
+    gap: 140px;
+
+
+}
+.logo-mid {
+    width: 115px;
+    height: 89px;
+    color: #184030;
+}
+.text-right {
+    display: flex;
+    gap: 100px;
+}
+.text-head-normal {
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 700;
+    color: #184030;
+    text-align: center;
+    word-spacing:4px;
+    
+}
+.about-us {
+    color: #117D54;
+}
+
+
+
+/* -------------body--------------- */
+
+.body {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.body-input {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-left: 80px;
+    margin-bottom: 80px;
+}
+.body-input-head_text {
+
+}
+.body-input-head_text-big {
+    color: var(--primary-green-darker-green, #184030);
+    font-family: Raleway;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 44px;
+    margin: 0;
+}
+.body-input-head_text-small {
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    display: flex;
+    gap: 6px;
+}
+.body-input-head_text-small-normal {
+    color: #184030;
+}
+.body-input-head_text-small-green {
+    color: #117D54;
+}
+
+
+
+
+.body-input-name {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+
+}
+.body-input-fistname {
+    color: var(--primary-green-darker-green, #184030);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.body-input-fistname p {
+    margin: 0;
+    padding-bottom: 6px;
+}
+.body-input-fistname input {
+    width: 240px;
+    height: 44px;
+    border-radius: 6px;
+    border: 1px solid #AEAEAE;
+    padding-left: 16px;
+    font-size: 12px;
+}
+
+.body-input-email {
+    color: var(--primary-green-darker-green, #184030);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.body-input-email p {
+    margin: 0;
+    padding-bottom: 6px;
+}
+.body-input-email input {
+    width: 540px;
+    height: 44px;
+    border-radius: 6px;
+    border: 1px solid #AEAEAE;
+    padding-left: 16px;
+    font-size: 12px;
+}
+
+.body-input-phone {
+    color: var(--primary-green-darker-green, #184030);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.phone-number {
+    display: flex;
+    align-items: center;
+}
+
+.body-input-phone p {
+    margin: 0;
+    padding-bottom: 6px;
+}
+.body-input-phone input {
+    width: 540px;
+    height: 44px;
+    border-radius: 6px;
+    border: 1px solid #AEAEAE;
+    padding-left: 16px;
+    font-size: 12px;
+}
+
+.body-input-message {
+    color: var(--primary-green-darker-green, #184030);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.body-input-message p {
+    margin: 0;
+    padding-bottom: 6px;
+}
+.body-input-message input {
+    width: 540px;
+    height: 110px;
+    border-radius: 6px;
+    border: 1px solid #AEAEAE;
+    padding-left: 16px;
+    font-size: 12px;
+}
+
+
+.body-input-topics {
+    color: var(--primary-green-darker-green, #184030);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.body-input-topics p {
+    margin: 0;
+    padding-bottom: 6px;
+}
+.body-input-colums {
+    display: flex;
+    gap: 60px;
+}
+.body-input-colums-colum {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.body-input-colums-colum-m {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+
+}
+.body-input-colums-colum-m input {
+    width: 20px;
+    height: 20px;
+}
+.body-input-colums-colum-m p {
+
+}
+
+
+
+
+.body-input-file {
+    color: var(--primary-green-darker-green, #184030);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.body-input-file p {
+    margin: 0;
+    padding-bottom: 6px;
+}
+.body-input-file img {
+    background-color: #D6D6D6;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+
+.body-bnt_send {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 8px; */
+}
+
+.body-bnt_send button {
+    width: 560px;
+    height: 48px;
+    background-color: rgb(203, 214, 252);
+    border: 1px solid rgb(203, 214, 252);
+    border-radius: 6px;
+    color: var(--greys-dark-grey, #2C2C2C);
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-right: 100px;
+}
+
+.body-img img {
+    height: 872px;
+    flex: 1 0 0;
+}
+/* ------------------ */
+
+
+
+.footer-deep {
+    background-color: #2C2C2C;
+    /* width: 1440px; */
+    
+}
+
+.footer-deep-head {
+    display: flex;
+    gap: 140px;
+    justify-content: center;
+    padding-top: 50px;
+}
+.footer-deep-head-logo img {
+    width: 87px;
+    height: 68px;
+}
+.footer-deep-head-left {
+    width: 518px;
+}
+.footer-deep-head-left-bigtext {
+    color:#FCFCFD;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.footer-deep-head-left-smalltext {
+    color:#FCFCFD;
+    font-family: Raleway;
+
+    
+}
+.footer-deep-head-left-smalltext-infomation {
+    display: flex;
+    font-size: 12px;
+    
+    line-height: 17.4px;
+}
+.footer-deep-head-left-smalltext-name {
+    font-weight: bolder;
+    margin-right: 6px;
+    font-weight: 700;
+}
+.footer-deep-head-left-smalltext-info {
+
+}
+
+
+.footer-deep-head-right {
+    width: 140px;
+}
+.footer-deep-head-right-bigtext {
+    color:#FCFCFD;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.footer-deep-head-right-smalltext {
+    color:#FCFCFD;
+    font-family: Raleway;
+    font-size: 12px;
+    line-height: 17.4px;
+}
+
+.footer-deep-head-tetx_logo {
+    color:#FCFCFD;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.footer-deep-head-tetx_logo-logo {
+display: flex;
+gap: 20px;
+}
+
+.lines {
+    opacity: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer-deep-footer {
+    color: #FCFCFD;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 40px;
+    padding-bottom: 20px;
+}
+.none-a {
+    text-decoration: none;
+}
